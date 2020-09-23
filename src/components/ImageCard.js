@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ImageCard = ({icon}) => {
+const ImageCard = ({weatherConfig}) => {
         return (
             <div style = {{width: '100px', height: '100px', marginBottom: '40px'}}>
                 <img 
-                src = {"./icons/" + icon} 
+                src = {"./icons/" + weatherConfig.icon} 
                 alt = "Weather Icon"
                 style = {{width: '100px', height: '100px'}}
                 />
